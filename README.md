@@ -1,6 +1,6 @@
 # About
 
-This is a spike project to check `Kafak Streams` + `Spring Cloud Stream`. It has three micros services producer, stream processeor and a consumer. 
+This is a spike project to check `Kafka Streams` + `Spring Cloud Stream`. It has three micros services producer, stream processeor and a consumer. 
 Note: Test cases were not considered for this spike.
 
 # Pre-Requisite
