@@ -1,0 +1,15 @@
+package com.spike.common.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.util.List;
+@AllArgsConstructor
+@NoArgsConstructor
+@Data
+@Builder
+public class Domains {
+    private List<Domain> domains;
+}

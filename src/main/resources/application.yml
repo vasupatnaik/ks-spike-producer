@@ -1,0 +1,12 @@
+server:
+  port: 8080
+spring:
+  profiles:
+    active: local
+  kafka:
+    template:
+      default-topic: domains-raw
+    producer:
+      bootstrap-servers: localhost:9092
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
